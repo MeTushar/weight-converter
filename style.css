@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #540D6E;
+}
+.app {
+    width: 300px;
+    color: #fff;
+}
+
+.app .app-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+input, .result > div {
+    margin: 10px 0;
+}
+
+.result > div {
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.result .pound {
+    background-color: #0EAD69;
+}
+
+.result .ounce {
+    background-color: #FF9F1C;
+}
+
+.result .grams {
+    background-color: #EE4266;
+}
+
+.result .pound > span,
+.result .ounce > span,
+.result .grams > span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.result .pound > div,
+.result .ounce > div,
+.result .grams > div {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
